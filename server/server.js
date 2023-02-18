@@ -1,6 +1,6 @@
 import express from "express";
 import * as dotenv from 'dotenv';
-import cors from 'cors';
+import cors from 'cors'; //CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
 import { Configuration, OpenAIApi } from "openai";
 
 dotenv.config();
